@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+body {
+	background-image: url("inventory/bgfood.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	position: relative;
+	background-size: cover;
+	overflow-x: hidden;
+
+}
+#logo {
+	position: absolute;
+	width: 128px;
+	height: 127.64px;
+	left: 956px;
+	top: 0px;
+}
+h1 {
+	position: absolute;
+	width: 670px;
+	height: 110px;
+	left: 685px;
+	top: 90px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 60px;
+	text-align: center;
+
+	color: #282C33;
+
+}
+#para {
+	position: absolute;
+	width: 670px;
+	height: 144px;
+	left: 685px;
+	top: 190px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 32px;
+	text-align: center;
+
+	color: #454C59;
+}
+.randomizer{
+	position: relative;
+	left: 785px;
+	top:450px;
+}
+.button1 {
+	/*position: absolute;*/
+	width: 470px;
+	height: 90px;
+	left: 785px;
+	top: 450px;
+
+	background: #3B414D;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 48px;
+	outline: 0;
+	display: inline-block;
+	/*transition-duration: 0.2s;*/
+
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 38px;
+	text-align: center;
+	color: #E3A000;
+
+	cursor: pointer;
+
+
+}
+
+.button2 {
+	color: #ffffff;
+}
+
+.button2:hover {
+	color:#3B414D;
+	background: #ffffff;
+	border: 4px solid #3B414D;
+}
+
+#answer {
+	border: 0;
+	background-color: transparent;
+	font-family: Dancing Script;
+	width: 470px;
+	/*height: 212px;*/
+	font-size: 88px;
+	text-align: center;
+	font-style: normal;
+	white-space: normal;
+	padding-top: 30px;
+	color: #E3A000;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+
+}
+/*#foot {
+	position: relative;
+	left: -60px;
+	bottom: 0;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 45px;
+	text-align: center;
+	left: 685px;
+	color: #282C33;
+}*/
+
+
